@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adama Diallo | Data Analyst & Géomaticien</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-blue-900 text-white py-10 text-center">
+    <h1 class="text-4xl font-bold">Adama Diallo</h1>
+    <p class="text-lg mt-2">Data Analyst | Géomaticien | Web Scraper</p>
+    <div class="mt-4 space-x-4">
+      <a href="#projects" class="bg-white text-blue-900 px-4 py-2 rounded-md font-semibold">View Projects</a>
+      <a href="#contact" class="border border-white px-4 py-2 rounded-md">Contact</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-4xl mx-auto px-6 py-12">
+    <h2 class="text-2xl font-bold mb-4 text-blue-800">About Me</h2>
+    <p class="leading-relaxed">
+      I’m a Data Science student passionate about transforming data into insights and interactive tools. 
+      My work combines web scraping, data analysis, and geospatial technologies (GIS).
+      I enjoy collecting, cleaning, and visualizing both tabular and spatial data to create impactful dashboards and maps.
+    </p>
+    <div class="mt-6 grid md:grid-cols-2 gap-6">
+      <div>
+        <h3 class="font-semibold text-blue-800 mb-2">Technical Skills</h3>
+        <ul class="list-disc ml-5">
+          <li>Python, R, SQL</li>
+          <li>BeautifulSoup, Pandas, NumPy</li>
+          <li>QGIS, ArcGIS, Leaflet, Folium</li>
+          <li>Power BI, Tableau</li>
+          <li>HTML, CSS, PHP</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold text-blue-800 mb-2">Current Focus</h3>
+        <ul class="list-disc ml-5">
+          <li>Machine Learning for spatial data</li>
+          <li>API integration and automation</li>
+          <li>Web applications for data visualization</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-gray-100 py-12 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-2xl font-bold text-blue-800 mb-8">Projects</h2>
+
+      <!-- Project 1 -->
+      <div class="bg-white rounded-xl shadow-md p-6 mb-8">
+        <img src="images/air_quality_dashboard.png" alt="Air Quality App" class="rounded-lg mb-4 w-full">
+        <h3 class="text-xl font-semibold mb-2 text-blue-900">Air Quality Web Application</h3>
+        <p class="mb-2">Interactive web app visualizing and predicting air quality across a French city.</p>
+        <ul class="list-disc ml-5 text-sm text-gray-700">
+          <li>API data integration (pollution, temperature, wind)</li>
+          <li>Leaflet.js + Mapbox for interactive mapping</li>
+          <li>Regression model to forecast air quality</li>
+          <li>Admin dashboard for managing stations</li>
+        </ul>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="bg-white rounded-xl shadow-md p-6 mb-8">
+        <img src="images/gotham_project.png" alt="Gotham Database" class="rounded-lg mb-4 w-full">
+        <h3 class="text-xl font-semibold mb-2 text-blue-900">Gotham Series Database</h3>
+        <p class="mb-2">Created a relational database and scraper for TV show data using Python and PostgreSQL.</p>
+        <ul class="list-disc ml-5 text-sm text-gray-700">
+          <li>Web scraping with BeautifulSoup</li>
+          <li>Database modeling (PostgreSQL)</li>
+          <li>Automated data insertion and querying</li>
+        </ul>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="bg-white rounded-xl shadow-md p-6">
+        <img src="images/kml_visualization.png" alt="KML Project" class="rounded-lg mb-4 w-full">
+        <h3 class="text-xl font-semibold mb-2 text-blue-900">KML Data Extraction & Mapping</h3>
+        <p class="mb-2">Parsed and visualized KML spatial data using Python and Folium.</p>
+        <ul class="list-disc ml-5 text-sm text-gray-700">
+          <li>Automated parsing of KML files</li>
+          <li>Cleaning and structuring geographic data</li>
+          <li>Dynamic mapping with Folium</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="max-w-4xl mx-auto px-6 py-12">
+    <h2 class="text-2xl font-bold text-blue-800 mb-6">Education</h2>
+    <ul class="list-disc ml-5 space-y-2">
+      <li><strong>BUT 3 – Science des Données</strong> | IUT de Perpignan (Carcassonne, France)</li>
+      <li><strong>Baccalauréat S2</strong> – Math, Physics, Chemistry, Biology | Lycée Mame Cheikh Mbaye, Sénégal</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-blue-900 text-white py-12 text-center">
+    <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
+    <p class="mb-4">Let’s collaborate on data and geospatial projects!</p>
+    <p class="mb-1">📧 <a href="mailto:adamsdiallo181@gmail.com" class="underline">adamsdiallo181@gmail.com</a></p>
+    <p class="mb-1">💼 <a href="https://linkedin.com/in/adama-diallo" class="underline">LinkedIn</a></p>
+    <p class="mb-1">💻 <a href="https://github.com/adams-dia" class="underline">GitHub</a></p>
+  </section>
+
+  <footer class="bg-gray-900 text-gray-400 text-center py-4 text-sm">
+    © 2025 Adama Diallo — Built with Tailwind CSS
+  </footer>
+
+</body>
+</html>
